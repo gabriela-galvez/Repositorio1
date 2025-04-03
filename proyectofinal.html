@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Flexbox</title>
+    <link rel="stylesheet" href="proyectofinal.css">
+</head>
+<body>
+    <header>
+        <h1>Sitio web de Stephanie Galvez</h1>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <ul class="menu">
+<li><a href="">Inicio</a></li>
+<li><a href="">Producto</a></li>
+<li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-content">
+        <article class="principal">
+    <h2>Contenido Principal</h2>
+    <p>Bienvenido a mi sitio web responsivo creado con Flexbox.</p>
+            
+            <div class="tarjetas">
+<div class="tarjeta">
+                    <h3>Grado</h3>
+                    <p>4to BCC</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Fecha</h3>
+                    <p>27-03-2025</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Clase</h3>
+                    <p>Computación aplicada</p>
+                </div>
+            </div>
+        </article>
+            <aside class="sidebar">
+            <h3>Barra Lateral</h3>
+            <ul>
+                <li><img src="https://i.pinimg.com/originals/08/5a/3a/085a3aabbda24d9e7d6646a72de1fe08.gif" height="100px"></li>
+                <li><img src="https://i.pinimg.com/originals/54/19/c9/5419c9ce3ffade43b2837daa2c96b1d9.gif" height="100px"></li>
+                <li><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/98771279888985.5cd184f5eb496.gif" height="100px"></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; Esta sitio web ha sido creado por Stephanie Gabriela Galvez Letona</p>
+    </footer>
+</body>
+</html>
